@@ -24,7 +24,7 @@ export default function TelaCadastroProduto(props) {
     return (
         <div>
             <Pagina>
-                |<Alert className="mt-02 mb-02 success text-center" variant="success">
+                <Alert className="mt-02 mb-02 success text-center" variant="success">
                     <h2>
                         Cadastro de Produto
                     </h2>
@@ -43,7 +43,6 @@ export default function TelaCadastroProduto(props) {
                                          setProdutoSelecionado={setProdutoSelecionado}
                                          modoEdicao={modoEdicao}
                                          setModoEdicao={setModoEdicao}
-
                                          />
                 }
             </Pagina>
