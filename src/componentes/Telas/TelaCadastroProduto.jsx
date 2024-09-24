@@ -43,7 +43,6 @@ export default function TelaCadastroProduto(props) {
                                          setProdutoSelecionado={setProdutoSelecionado}
                                          modoEdicao={modoEdicao}
                                          setModoEdicao={setModoEdicao}
-
                                          />
                 }
             </Pagina>
