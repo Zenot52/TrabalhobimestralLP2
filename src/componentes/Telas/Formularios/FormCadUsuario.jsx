@@ -127,6 +127,14 @@ export default function FormCadUsuario(props){
                 <Col md={{offset:1}}>
                     <Button onClick={()=>{
                         props.setExibirTabela(true);
+                        props.setUsuarioSelecionado({
+                            codigo:0,
+                            nome:"",
+                            email:"",
+                            senha:"",
+                            dataCadastro:""
+                        });
+                        props.setModoEdicao(false);
                     }}>Voltar</Button>
                 </Col>
             </Row>

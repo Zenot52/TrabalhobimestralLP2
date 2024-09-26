@@ -129,6 +129,14 @@ export default function FormCadClientes(props) {
                 <Col md={{offset:1}}>
                     <Button onClick={()=>{
                         props.setExibirTabela(true);
+                        props.setModoEdicao(false);
+                        props.setClienteSelecionado({
+                        nome:"",
+                        cpf:"",
+                        email:"",
+                        endereco:"",
+                        telefone:""
+                    });
                     }}>Voltar</Button>
                 </Col>
             </Row>

@@ -140,6 +140,15 @@ export default function FormCadEntegrador(props){
                 <Col md={{offset:1}}>
                     <Button onClick={()=>{
                         props.setExibirTabela(true);
+                        props.setModoEdicao(false);
+                        props.setEntregadorSelecionado({
+                            cnh:0,
+                            nome:"",
+                            email:"",
+                            endereco:"",
+                            telefone:"",
+                            placaVeiculo:"",
+                        });
                     }}>Voltar</Button>
                 </Col>
             </Row>
